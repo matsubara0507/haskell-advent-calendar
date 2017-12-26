@@ -1,0 +1,26 @@
+name:                advent-calendar
+version:             0.1.0.0
+github:              "matsubara0507/haskell-advent-calendar-2017"
+license:             MIT
+author:              "MATSUBARA Nobutada"
+copyright:           "2017 MATSUBARA Nobutada"
+
+extra-source-files:
+- README.md
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+
+executables:
+  advent-calendar-exe:
+    main: Main.hs
+    source-dirs: app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - advent-calendar
