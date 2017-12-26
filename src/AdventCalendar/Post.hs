@@ -14,10 +14,15 @@ type Post = Record
     , "auther" >: Text
     , "url" >: URL
     , "date" >: Date
-    , "calendar" >: URL
+    , "calendar" >: Calendar
     ]
 
 type URL = Text
+
+type Calendar = Record
+   '[ "title" >: Text
+    , "url" >: URL
+    ]
 
 class ToPosts a where
   getPosts :: a -> IO [Post]

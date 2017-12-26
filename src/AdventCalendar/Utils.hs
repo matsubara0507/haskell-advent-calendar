@@ -10,12 +10,16 @@ import qualified Data.Text                as T
 import           Data.Text.Lazy.Builder   (toLazyText)
 import           Data.Text.Lazy.Encoding  (encodeUtf8)
 import qualified Data.Text.Lazy.IO        as LT
-import           Text.HTML.Scalpel.Core   (Scraper, scrapeStringLike)
+import           Text.HTML.Scalpel.Core   (Scraper, scrapeStringLike, text,
+                                           (//))
 
 type Html = Text
 
 scrapeHtml :: Scraper Html a -> Html -> Maybe a
 scrapeHtml = flip scrapeStringLike
+
+headerTitleScraper :: Scraper Html Text
+headerTitleScraper = text $ "head" // "title"
 
 writeJson :: ToJSON a => Text -> a -> IO ()
 writeJson jsonPath =

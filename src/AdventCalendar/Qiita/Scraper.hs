@@ -3,14 +3,17 @@
 
 module AdventCalendar.Qiita.Scraper where
 
-import           AdventCalendar.Post    (Post, URL)
-import           AdventCalendar.Utils   (Date, Html, strip, toDate)
+import           AdventCalendar.Post              (Post, URL)
+import           AdventCalendar.Utils             (Date, Html, strip, toDate)
+import           Data.Default                     (def)
 import           Data.Extensible
-import           Data.Text              (Text)
+import           Data.Extensible.Instance.Default ()
+import           Data.Text                        (Text)
 import           Text.HTML.Scalpel.Core
 
-scraper :: Scraper Html [Post]
-scraper = chroots ("div" @: [hasClass "adventCalendarItem"]) itemScraper
+postsScraper :: Scraper Html [Post]
+postsScraper =
+  chroots ("div" @: [hasClass "adventCalendarItem"]) itemScraper
 
 itemScraper :: Scraper Html Post
 itemScraper = hsequence
@@ -18,7 +21,7 @@ itemScraper = hsequence
    <: #auther   <@=> autherScraper
    <: #url      <@=> urlScraper
    <: #date     <@=> dateScraper
-   <: #calendar <@=> pure ""
+   <: #calendar <@=> pure def
    <: nil
 
 titleScraper :: Scraper Html Text
