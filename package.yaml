@@ -9,7 +9,17 @@ extra-source-files:
 - README.md
 
 dependencies:
+- aeson
+- aeson-pretty
 - base >= 4.7 && < 5
+- constraints
+- extensible
+- lens
+- scalpel-core
+- string-transform
+- text
+- unordered-containers
+- wreq
 
 library:
   source-dirs: src
