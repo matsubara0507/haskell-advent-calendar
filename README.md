@@ -7,6 +7,6 @@ Posts of Haskell Advent Calendar 2017 in Japan
 >> :set -XOverloadedStrings
 >> import GHC.IO.Encoding
 >> setLocaleEncoding utf8
->> result <- getPosts $ Qiita "https://qiita.com/advent-calendar/2017/haskell"
->> writeJson "./hoge.json" result
+>> result <- getPosts $ Qiita "https://qiita.com/advent-calendar/2017/calendars"
+>> writeJson "./hoge.json" $ filter isHaskellPost result
 ```

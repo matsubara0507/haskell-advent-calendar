@@ -17,7 +17,7 @@ newtype Qiita = Qiita { getUrl :: URL }
 
 instance ToPosts Qiita where
   getPosts (Qiita url) = do
-    urls <- getUrls url [1..]
+    urls <- getUrls url [1..1]
     mconcat <$> mapM getPosts' urls
 
 getPosts' :: URL -> IO [Post]
