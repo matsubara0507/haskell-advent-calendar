@@ -27,6 +27,6 @@ and exec on ghci
 >> :set -XOverloadedStrings
 >> import GHC.IO.Encoding
 >> setLocaleEncoding utf8
->> result <- getPosts $ Adventar "https://adventar.org/calendars?year=2017" (mkDriver "localhost" "4444")
+>> result <- getPosts $ Adventar "https://adventar.org/calendars?year=2017" (mkDriver "localhost" 4444)
 >> writeJson "./hoge.json" $ filter isHaskellPost result
 ```

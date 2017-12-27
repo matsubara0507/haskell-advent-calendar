@@ -42,6 +42,6 @@ twoDigit = T.takeEnd 2 . T.append "0"
 strip :: Text -> Text
 strip = T.strip
 
-mkDriver :: Text -> Text -> WDConfig
+mkDriver :: Text -> Int -> WDConfig
 mkDriver host port = useBrowser chrome $
-  defaultConfig { wdHost = T.unpack host, wdPort = read (T.unpack port) }
+  defaultConfig { wdHost = T.unpack host, wdPort = port }
