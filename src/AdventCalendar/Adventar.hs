@@ -9,7 +9,7 @@ import           AdventCalendar.Adventar.Internal
 import           AdventCalendar.Post              (ToPosts (..), URL)
 import           Test.WebDriver                   (WDConfig)
 
-data Adventar = Adventar { getUrl :: URL, getConfig :: WDConfig }
+data Adventar = Adventar URL WDConfig
 
 instance ToPosts Adventar where
   getPosts (Adventar url conf) = do
