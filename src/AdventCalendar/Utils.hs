@@ -4,12 +4,12 @@ module AdventCalendar.Utils where
 
 import           Data.Aeson               (ToJSON)
 import           Data.Aeson.Encode.Pretty (encodePrettyToTextBuilder)
-import           Data.Maybe               (fromMaybe)
 import           Data.Text                (Text)
 import qualified Data.Text                as T
 import           Data.Text.Lazy.Builder   (toLazyText)
-import           Data.Text.Lazy.Encoding  (encodeUtf8)
 import qualified Data.Text.Lazy.IO        as LT
+import           Test.WebDriver           (WDConfig (..), chrome, defaultConfig,
+                                           useBrowser)
 import           Text.HTML.Scalpel.Core   (Scraper, scrapeStringLike, text,
                                            (//))
 
@@ -35,3 +35,7 @@ twoDigit = T.takeEnd 2 . T.append "0"
 
 strip :: Text -> Text
 strip = T.strip
+
+mkDriver :: Text -> Text -> WDConfig
+mkDriver host port = useBrowser chrome $
+  defaultConfig { wdHost = T.unpack host, wdPort = read (T.unpack port) }
