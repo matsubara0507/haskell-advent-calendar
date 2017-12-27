@@ -17,6 +17,7 @@ dependencies:
 - extensible
 - lens
 - scalpel-core
+- shelly
 - string-transform
 - text
 - unordered-containers

@@ -8,8 +8,15 @@ import           AdventCalendar.Utils             (Date, Html, strip, toDate)
 import           Data.Default                     (def)
 import           Data.Extensible
 import           Data.Extensible.Instance.Default ()
-import           Data.Text                        (Text)
+import           Data.Text                        (Text, append)
 import           Text.HTML.Scalpel.Core
+
+calendarUrlsScraper :: Scraper Html [URL]
+calendarUrlsScraper =
+  chroots ("table" @: [hasClass "adventCalendarList"] // "tbody" // "tr") $ do
+    url <- attr "href" $
+      ("td" @: [hasClass "adventCalendarList_calendarTitle"]) // "a"
+    return $ append "http://qiita.com" url
 
 postsScraper :: Scraper Html [Post]
 postsScraper =
