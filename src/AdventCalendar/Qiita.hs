@@ -10,7 +10,7 @@ import           AdventCalendar.Utils         (headerTitleScraper, scrapeHtml)
 import           Control.Lens                 (set)
 import           Data.Extensible
 import           Data.Maybe                   (fromMaybe)
-import           Data.Text                    (append, pack)
+import           Data.Text                    (pack)
 import           Shelly                       (shelly, sleep)
 
 newtype Qiita = Qiita { getUrl :: URL }

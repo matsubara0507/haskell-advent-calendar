@@ -9,7 +9,6 @@ import           AdventCalendar.Utils           (Date)
 import           Control.Lens                   ((^.))
 import           Data.Extensible
 import           Data.Extensible.Instance.Aeson ()
-import           Data.Proxy                     (Proxy)
 import           Data.Text                      (Text, isInfixOf)
 
 type Post = Record

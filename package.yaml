@@ -8,6 +8,9 @@ copyright:           "2017 MATSUBARA Nobutada"
 extra-source-files:
 - README.md
 
+ghc-options:
+- -Wall
+
 dependencies:
 - aeson
 - aeson-pretty
