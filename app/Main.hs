@@ -21,7 +21,7 @@ main = do
   result1 <- run (opts' ^. #qiita) $ qiita (opts' ^. #year)
   result2 <- run (opts' ^. #adventar) .
     adventar (opts' ^. #year) $ mkDriver (opts' ^. #wdHost) (opts' ^. #wdPort)
-  writeJson "./hoge.json" $ result1 `mappend` result2
+  writeJson (opts' ^. #output) $ result1 `mappend` result2
 
 run :: ToPosts a => Bool -> a -> IO [Post]
 run False = const $ pure []

@@ -16,6 +16,7 @@ type Options = Record
     , "adventar" >: Bool
     , "wdHost" >: Text
     , "wdPort" >: Int
+    , "output" >: Text
     ]
 
 optsParser :: Parser Options
@@ -25,6 +26,7 @@ optsParser = hsequence
    <: #adventar <@=> adventarFlagParser
    <: #wdHost   <@=> wdHostParser
    <: #wdPort   <@=> wdPortParser
+   <: #output   <@=> outputParser
    <: nil
 
 yearParser :: Parser Text
@@ -46,6 +48,10 @@ wdHostParser =
 wdPortParser :: Parser Int
 wdPortParser =
   option auto (long "port" <> value 4444 <> help "Port of Web driver")
+
+outputParser :: Parser Text
+outputParser =
+  textArgument (metavar "output" <> help "Output json file path")
 
 textArgument :: Mod ArgumentFields Text -> Parser Text
 textArgument = argument (eitherReader $ Right . pack)
