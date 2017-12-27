@@ -25,4 +25,4 @@ main = do
 
 run :: ToPosts a => Bool -> a -> IO [Post]
 run False = const $ pure []
-run True  = getPosts
+run True  = fmap (filter isHaskellPost) . getPosts
