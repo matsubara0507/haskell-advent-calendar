@@ -7,7 +7,7 @@ import           AdventCalendar.Post          (Post, URL)
 import           AdventCalendar.Qiita.Fetch
 import           AdventCalendar.Qiita.Scraper
 import           AdventCalendar.Utils         (headerTitleScraper, scrapeHtml)
-import           Control.Lens                 (set)
+import           Control.Lens                 (set, (&), (.~), (^.))
 import           Data.Extensible
 import           Data.Maybe                   (fromMaybe)
 import           Data.Text                    (pack)
@@ -25,7 +25,17 @@ getPosts' url = do
        <: emptyRecord
   TIO.putStrLn $ "get posts on " `mappend` url
   shelly $ sleep 1
-  return $ fmap (set #calendar calendar) posts
+  mapM updatePostTitle' $ set #calendar calendar <$> posts
+
+updatePostTitle :: Post -> IO Post
+updatePostTitle post = do
+  html <- fetchHtml $ post ^. #url
+  let
+    title = fromMaybe (post ^. #title) $ scrapeHtml headerTitleScraper html
+  return $ post & #title .~ title
+
+updatePostTitle' :: Post -> IO Post
+updatePostTitle' post = shelly (sleep 1) >> updatePostTitle post
 
 getUrls :: URL -> [Int] -> IO [URL]
 getUrls _ [] = pure []
