@@ -2,11 +2,13 @@
 
 module AdventCalendar.Utils where
 
-import           Data.Aeson               (ToJSON)
+import           Data.Aeson               (FromJSON, ToJSON, decode)
 import           Data.Aeson.Encode.Pretty (encodePrettyToTextBuilder)
-import           Data.Text                (Text)
+import           Data.Maybe               (fromMaybe)
+import           Data.Text                (Text, unpack)
 import qualified Data.Text                as T
 import           Data.Text.Lazy.Builder   (toLazyText)
+import           Data.Text.Lazy.Encoding  (encodeUtf8)
 import qualified Data.Text.Lazy.IO        as LT
 import           Test.WebDriver           (WDConfig (..), chrome, defaultConfig,
                                            useBrowser)
@@ -24,6 +26,10 @@ headerTitleScraper = text $ "head" // "title"
 writeJson :: ToJSON a => Text -> a -> IO ()
 writeJson jsonPath =
   LT.writeFile (T.unpack jsonPath) . toLazyText . encodePrettyToTextBuilder
+
+readJson :: FromJSON a => Text -> IO [a]
+readJson jsonPath =
+  fromMaybe [] . decode . encodeUtf8 <$> LT.readFile (unpack jsonPath)
 
 type Date = Text
 
