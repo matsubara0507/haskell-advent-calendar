@@ -32,14 +32,14 @@ entryScraper = hsequence
    <: nil
 
 dateScraper :: Scraper Text Date
-dateScraper = fmap toDate $ text ("th" @: [hasClass "mod-entryList-date"])
+dateScraper = toDate <$> text ("th" @: [hasClass "mod-entryList-date"])
 
 autherScraper :: Scraper Text Text
 autherScraper = text $ "td" @: [hasClass "mod-entryList-user"] // "span"
 
 titleScraper :: Scraper Text Text
 titleScraper =
-  fmap strip $ text ("div" @: [hasClass "mod-entryList-title", notHidden])
+  strip <$> text ("div" @: [hasClass "mod-entryList-title", notHidden])
 
 urlScraper :: Scraper Text URL
 urlScraper =

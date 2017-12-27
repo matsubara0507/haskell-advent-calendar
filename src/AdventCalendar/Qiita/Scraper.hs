@@ -37,15 +37,14 @@ titleScraper =
 
 autherScraper :: Scraper Html Text
 autherScraper =
-  fmap strip . text $ itemS "div" "calendarContent" // itemS "a" "author"
+  strip <$> text (itemS "div" "calendarContent" // itemS "a" "author")
 
 urlScraper :: Scraper Html URL
 urlScraper =
   attr "href" $ itemS "div" "commentWrapper" // itemS "div" "entry" // "a"
 
 dateScraper :: Scraper Html Date
-dateScraper =
-  fmap toDate . text $ itemS "div" "date"
+dateScraper = toDate <$> text (itemS "div" "date")
 
 itemS :: TagName -> String -> Selector
 itemS tag str = tag @: [hasClass $ mappend "adventCalendarItem_" str ]
