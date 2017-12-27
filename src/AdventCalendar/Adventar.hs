@@ -12,7 +12,7 @@ data Adventar = Adventar URL WDConfig
 
 instance ToPosts Adventar where
   getPosts (Adventar url conf) = do
-    urls <- take 2 <$> getUrls url
+    urls <- getUrls url
     mconcat <$> mapM (getPosts' conf) urls
 
 adventar :: Text -> WDConfig -> Adventar

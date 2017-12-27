@@ -1,0 +1,112 @@
+[
+    {
+        "url": "https://qiita.com/aiya000/items/7dc0cb8694de0675088e",
+        "date": "12/25",
+        "auther": "aiya000",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2546",
+            "title": "プロ生ちゃん Advent Calendar 2017 - Adventar"
+        },
+        "title": "Haskell (Eta) でJavaFXのEDSLを作る雰囲気を醸し出す - Qiita"
+    },
+    {
+        "url": "https://mt-caret.github.io/blog/posts/2017-12-01-book01.html",
+        "date": "12/01",
+        "auther": "mt_caret",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2433",
+            "title": "本 Advent Calendar 2017 - Adventar"
+        },
+        "title": "mt_caret.log - 本1 \"Haskell Programming from first principles\""
+    },
+    {
+        "url": "http://zodi-g12.hatenablog.com/entry/2017/12/06/133951",
+        "date": "12/06",
+        "auther": "zodi_G12",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2377",
+            "title": "IQが1 Advent Calendar 2017 - Adventar"
+        },
+        "title": "コラッツの問題をHaskellで書いてみた - Zodiacの黙示録"
+    },
+    {
+        "url": "https://tech.recruit-mp.co.jp/dev-tools/post-13981/",
+        "date": "12/13",
+        "auther": "yukiasai",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2360",
+            "title": "RECRUIT MARKETING PARTNERS Advent Calendar 2017 - Adventar"
+        },
+        "title": "CircleCI2.0でHaskellのテストを実行する – PSYENCE:MEDIA"
+    },
+    {
+        "url": "https://qiita.com/yukiasai/items/248294a871d40c0dcef6",
+        "date": "12/07",
+        "auther": "yukiasai",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2324",
+            "title": "Recruit Engineers  Advent Calendar 2017 - Adventar"
+        },
+        "title": "Dokku環境を構築してHaskellのアプリケーションをデプロイする - Qiita"
+    },
+    {
+        "url": "https://matsubara0507.github.io/posts/2017-12-02-re-adventar-slack-bot-part1.html",
+        "date": "12/02",
+        "auther": "ひげ",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2300",
+            "title": "群馬大学電子計算機研究会 IGGG Advent Calendar 2017 - Adventar"
+        },
+        "title": "Re: ゼロから作る ADVENTAR の Slack Bot (Haskell 編)"
+    },
+    {
+        "url": "https://qiita.com/Mizunashi_Mana/items/e82214dfae2765c6839a",
+        "date": "12/22",
+        "auther": "Mizunashi_Mana",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2253",
+            "title": "whywaita Advent Calendar 2017 - Adventar"
+        },
+        "title": "Haskell副作用ポエム - Qiita"
+    },
+    {
+        "url": "https://qiita.com/advent-calendar/2017/haskell",
+        "date": "12/07",
+        "auther": "i-makinori",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2176",
+            "title": "Advent Calendar 2017 Advent Calendar 2017 - Adventar"
+        },
+        "title": "Haskell Advent Calendar 2017 - Qiita"
+    },
+    {
+        "url": "https://haskell.jp/blog/posts/2017/typesafe-precure2.html",
+        "date": "12/24",
+        "auther": "igrep",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2118",
+            "title": "プリキュア Advent Calendar 2017 - Adventar"
+        },
+        "title": "タイプセーフプリキュア！を支える技術 その2 - Haskell-jp"
+    },
+    {
+        "url": "https://www.ncaq.net/2017/12/19/00/00/00/",
+        "date": "12/19",
+        "auther": "エヌユル",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2105",
+            "title": "Webスクレイピング Advent Calendar 2017 - Adventar"
+        },
+        "title": "Haskellによるwebスクレイピングの方法をdic-nico-intersection-pixivを例に書く - ncaq"
+    },
+    {
+        "url": "https://twitter.com/Fagnux/status/940593768645791745",
+        "date": "12/12",
+        "auther": "Fagnux",
+        "calendar": {
+            "url": "http://adventar.org/calendars/2087",
+            "title": "Lunascaper Advent Calendar 2017 - Adventar"
+        },
+        "title": "柊野徹也 (xnuꝿɐℲ) チルアウトはHip Hop由来ではなく電子音楽由来の単語です on Twitter: \"【Lunascaper Advent Calendar 2017：12日目】\n今年読みそびれた本：Haskell 教養としての関数型プログラミング\nHaskellの黒本。これを読む前にまだ読んでる途中の『Real World Haskell』を読み終えないと…\""
+    }
+]
