@@ -30,3 +30,11 @@ and exec on ghci
 >> result <- getPosts $ Adventar "https://adventar.org/calendars?year=2017" (mkDriver "localhost" 4444)
 >> writeJson "./hoge.json" $ filter isHaskellPost result
 ```
+
+### Command
+
+run selenium with chrome webdriver and: 
+
+```
+$  stack exec -- advent-calendar 2017 "./hoge.json"
+```
