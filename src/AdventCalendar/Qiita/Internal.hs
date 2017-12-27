@@ -11,6 +11,7 @@ import           Control.Lens                 (set)
 import           Data.Extensible
 import           Data.Maybe                   (fromMaybe)
 import           Data.Text                    (pack)
+import qualified Data.Text.IO                 as TIO
 import           Shelly                       (shelly, sleep)
 
 getPosts' :: URL -> IO [Post]
@@ -22,6 +23,7 @@ getPosts' url = do
         = #title @= fromMaybe "" (scrapeHtml headerTitleScraper html)
        <: #url   @= url
        <: emptyRecord
+  TIO.putStrLn $ "get posts on " `mappend` url
   shelly $ sleep 1
   return $ fmap (set #calendar calendar) posts
 

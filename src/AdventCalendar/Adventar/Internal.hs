@@ -11,6 +11,7 @@ import           AdventCalendar.Utils            (headerTitleScraper,
 import           Control.Lens                    (set)
 import           Data.Extensible
 import           Data.Maybe                      (fromMaybe)
+import qualified Data.Text.IO                    as TIO
 import           Shelly                          (shelly, sleep)
 import           Test.WebDriver                  (WDConfig)
 
@@ -23,6 +24,7 @@ getPosts' conf url = do
         = #title @= fromMaybe "" (scrapeHtml headerTitleScraper html)
        <: #url   @= url
        <: emptyRecord
+  TIO.putStrLn $ "get posts on " `mappend` url
   shelly $ sleep 1
   return $ fmap (set #calendar calendar) posts
 
