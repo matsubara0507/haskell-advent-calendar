@@ -13,25 +13,26 @@ ghc-options:
 
 dependencies:
 - aeson
-- aeson-pretty
 - base >= 4.7 && < 5
-- constraints
-- data-default
 - extensible
 - lens
-- scalpel-core
-- shelly
-- string-transform
 - text
-- unordered-containers
-- webdriver
-- wreq
 
 library:
   source-dirs: src
+  dependencies:
+  - aeson-pretty
+  - constraints
+  - data-default
+  - scalpel-core
+  - shelly
+  - string-transform
+  - unordered-containers
+  - webdriver
+  - wreq
 
 executables:
-  advent-calendar-exe:
+  advent-calendar:
     main: Main.hs
     source-dirs: app
     ghc-options:
@@ -40,3 +41,4 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - advent-calendar
+    - optparse-applicative
