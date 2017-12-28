@@ -47,6 +47,7 @@ getUrls url (n:ns) = do
   where
     go index = do
       html <- fetchHtml $ calendarsUrl url index
+      putStrLn $ "get urls on page " `mappend` show index
       shelly $ sleep 1
       return $ fromMaybe [] (scrapeHtml calendarUrlsScraper html)
 
