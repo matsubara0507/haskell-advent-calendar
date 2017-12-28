@@ -29,7 +29,7 @@ getPosts' url = do
 
 updatePostTitle :: Post -> IO Post
 updatePostTitle post = do
-  html <- fetchHtml $ post ^. #url
+  html <- fetchHtml' $ post ^. #url
   let
     title = fromMaybe (post ^. #title) $ scrapeHtml headerTitleScraper html
   return $ post & #title .~ title

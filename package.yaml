@@ -24,6 +24,7 @@ library:
   - aeson-pretty
   - constraints
   - data-default
+  - http-client
   - scalpel-core
   - shelly
   - string-transform
