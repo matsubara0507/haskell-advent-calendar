@@ -18,7 +18,7 @@ Posts of Haskell Advent Calendar 2017 in Japan
 run selenium with chrome webdriver.
 
 ```
-$ $ java -jar ./selenium-server-standalone-*.jar
+$ java -jar ./selenium-server-standalone-*.jar
 ```
 
 and exec on ghci
@@ -33,7 +33,7 @@ and exec on ghci
 
 ### Command
 
-run selenium with chrome webdriver and: 
+run selenium with chrome webdriver and:
 
 ```
 $  stack exec -- advent-calendar 2017 "./hoge.json"
