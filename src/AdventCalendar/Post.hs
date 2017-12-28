@@ -17,6 +17,7 @@ type Post = Record
     , "url" >: URL
     , "date" >: Date
     , "calendar" >: Calendar
+    , "category" >: Text
     ]
 
 type URL = Text

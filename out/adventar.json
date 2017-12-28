@@ -1,5 +1,6 @@
 [
     {
+        "category": "",
         "url": "https://qiita.com/aiya000/items/7dc0cb8694de0675088e",
         "date": "12/25",
         "auther": "aiya000",
@@ -10,6 +11,7 @@
         "title": "Haskell (Eta) でJavaFXのEDSLを作る雰囲気を醸し出す - Qiita"
     },
     {
+        "category": "",
         "url": "https://mt-caret.github.io/blog/posts/2017-12-01-book01.html",
         "date": "12/01",
         "auther": "mt_caret",
@@ -20,6 +22,7 @@
         "title": "mt_caret.log - 本1 \"Haskell Programming from first principles\""
     },
     {
+        "category": "",
         "url": "http://zodi-g12.hatenablog.com/entry/2017/12/06/133951",
         "date": "12/06",
         "auther": "zodi_G12",
@@ -30,6 +33,7 @@
         "title": "コラッツの問題をHaskellで書いてみた - Zodiacの黙示録"
     },
     {
+        "category": "",
         "url": "https://tech.recruit-mp.co.jp/dev-tools/post-13981/",
         "date": "12/13",
         "auther": "yukiasai",
@@ -40,6 +44,7 @@
         "title": "CircleCI2.0でHaskellのテストを実行する – PSYENCE:MEDIA"
     },
     {
+        "category": "",
         "url": "https://qiita.com/yukiasai/items/248294a871d40c0dcef6",
         "date": "12/07",
         "auther": "yukiasai",
@@ -50,6 +55,7 @@
         "title": "Dokku環境を構築してHaskellのアプリケーションをデプロイする - Qiita"
     },
     {
+        "category": "",
         "url": "https://matsubara0507.github.io/posts/2017-12-02-re-adventar-slack-bot-part1.html",
         "date": "12/02",
         "auther": "ひげ",
@@ -60,6 +66,7 @@
         "title": "Re: ゼロから作る ADVENTAR の Slack Bot (Haskell 編)"
     },
     {
+        "category": "",
         "url": "https://qiita.com/Mizunashi_Mana/items/e82214dfae2765c6839a",
         "date": "12/22",
         "auther": "Mizunashi_Mana",
@@ -70,6 +77,7 @@
         "title": "Haskell副作用ポエム - Qiita"
     },
     {
+        "category": "",
         "url": "https://qiita.com/advent-calendar/2017/haskell",
         "date": "12/07",
         "auther": "i-makinori",
@@ -80,6 +88,7 @@
         "title": "Haskell Advent Calendar 2017 - Qiita"
     },
     {
+        "category": "",
         "url": "https://haskell.jp/blog/posts/2017/typesafe-precure2.html",
         "date": "12/24",
         "auther": "igrep",
@@ -90,6 +99,7 @@
         "title": "タイプセーフプリキュア！を支える技術 その2 - Haskell-jp"
     },
     {
+        "category": "",
         "url": "https://www.ncaq.net/2017/12/19/00/00/00/",
         "date": "12/19",
         "auther": "エヌユル",
@@ -100,6 +110,7 @@
         "title": "Haskellによるwebスクレイピングの方法をdic-nico-intersection-pixivを例に書く - ncaq"
     },
     {
+        "category": "",
         "url": "https://twitter.com/Fagnux/status/940593768645791745",
         "date": "12/12",
         "auther": "Fagnux",

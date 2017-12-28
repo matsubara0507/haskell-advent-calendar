@@ -29,6 +29,7 @@ entryScraper = hsequence
    <: #url      <@=> urlScraper
    <: #date     <@=> dateScraper
    <: #calendar <@=> pure def
+   <: #category <@=> pure ""
    <: nil
 
 dateScraper :: Scraper Text Date
