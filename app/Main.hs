@@ -5,11 +5,13 @@ module Main where
 
 import           AdventCalendar
 import           Control.Lens        ((&), (.~), (^.))
+import           GHC.IO.Encoding
 import           Options
 import           Options.Applicative (execParser)
 
 main :: IO ()
 main = do
+  setLocaleEncoding utf8
   opts <- execParser $
     optsParser `withInfo` "get Haskell posts on Advent Calendar"
   let
