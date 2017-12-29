@@ -1,11 +1,13 @@
 {-# LANGUAGE DataKinds         #-}
 {-# LANGUAGE OverloadedLabels  #-}
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE Rank2Types        #-}
 {-# LANGUAGE TypeOperators     #-}
 
 module AdventCalendar.Post where
 
 import           AdventCalendar.Utils           (Date)
+import           Conduit                        (Source)
 import           Control.Lens                   ((^.))
 import           Data.Extensible
 import           Data.Extensible.Instance.Aeson ()
@@ -28,7 +30,7 @@ type Calendar = Record
     ]
 
 class ToPosts a where
-  getPosts :: a -> IO [Post]
+  getPosts :: a -> Source IO Post
 
 isHaskellPost :: Post -> Bool
 isHaskellPost post = any ("Haskell" `isInfixOf`)
