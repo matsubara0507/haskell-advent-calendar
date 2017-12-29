@@ -12,7 +12,7 @@ newtype Qiita = Qiita URL
 
 instance ToPosts Qiita where
   getPosts (Qiita url) = do
-    urls <- lift $ getUrls url [1..1]
+    urls <- lift $ getUrls url [1..]
     yieldMany urls =$= concatMapMC getPosts'
 
 qiita :: Text -> Qiita
