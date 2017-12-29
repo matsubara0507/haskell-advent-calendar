@@ -21,7 +21,7 @@ scrapeHtml :: Scraper Html a -> Html -> Maybe a
 scrapeHtml = flip scrapeStringLike
 
 headerTitleScraper :: Scraper Html Text
-headerTitleScraper = text $ "head" // "title"
+headerTitleScraper = strip <$> text ("head" // "title")
 
 writeJson :: ToJSON a => Text -> a -> IO ()
 writeJson jsonPath =
