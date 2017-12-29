@@ -17,6 +17,7 @@ data Cmd
 type MarkdownOptions = Record
    '[ "inputs" >: [Text]
     , "output" >: Maybe Text
+    , "noCategory" >: Bool
     ]
 
 type FetchOptions = Record
@@ -49,8 +50,9 @@ fetchOptsParser = hsequence
 
 mdOptsParser :: Parser MarkdownOptions
 mdOptsParser = hsequence
-    $ #inputs <@=> inputsParser
-   <: #output <@=> outputParser'
+    $ #inputs     <@=> inputsParser
+   <: #output     <@=> outputParser'
+   <: #noCategory <@=> noCategoryParser
    <: nil
 
 yearParser :: Parser Text
@@ -84,6 +86,10 @@ inputsParser = some $
 outputParser' :: Parser (Maybe Text)
 outputParser' = option (eitherReader $ Right . Just . pack) $
   long "output" <> short 'o' <> value Nothing <> help "Output json file path"
+
+noCategoryParser :: Parser Bool
+noCategoryParser =
+  switch (long "no-category" <> help "can't categorize posts")
 
 textArgument :: Mod ArgumentFields Text -> Parser Text
 textArgument = argument (eitherReader $ Right . pack)

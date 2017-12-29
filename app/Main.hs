@@ -6,8 +6,9 @@ module Main where
 import           AdventCalendar
 import           Conduit
 import           Control.Lens        ((&), (.~), (^.))
-import           Data.List           (intercalate)
+import           Data.List           (intercalate, sortBy)
 import           Data.Maybe          (fromMaybe)
+import           Data.Text           (Text)
 import qualified Data.Text           as T
 import qualified Data.Text.IO        as T
 import           GHC.IO.Encoding
@@ -48,6 +49,43 @@ mdCmd :: MarkdownOptions -> IO ()
 mdCmd opts = do
   result <- mconcat <$> mapM readJson (opts ^. #inputs)
   let
-    md = T.unlines . intercalate [""] $ fmap toMarkdown result
+    md = toMarkdown' (opts ^. #noCategory) result
     out = fromMaybe T.putStrLn $ (T.writeFile . T.unpack) <$> opts ^. #output
   out md
+
+toMarkdown' :: Bool -> [Post] -> Text
+toMarkdown' False posts = T.unlines . intercalate [""] $
+  concatMap (toMarkdownWithCategory $ sortPosts posts) categories
+toMarkdown' True  posts = T.unlines . intercalate [""] $ fmap toMarkdown posts
+
+toMarkdownWithCategory :: [Post] -> Text -> [[Text]]
+toMarkdownWithCategory posts category =
+  [ mconcat ["### ", category] ] :
+    fmap toMarkdown (filter (\post -> post ^. #category == category) posts)
+
+categories :: [Text]
+categories =
+  [ "ポエム"
+  , "入門してみた"
+  , "ノウハウ"
+  , "解説"
+  , "周辺ツールについて"
+  , "ライブラリ紹介"
+  , "作ってみた"
+  , "処理系"
+  , "言語機能"
+  , "型"
+  , "Base"
+  , "アルゴリズムとデータ構造"
+  , "数学・科学"
+  , "Docker"
+  , "Eta"
+  , "書籍紹介"
+  , "翻訳記事"
+  ]
+
+sortPosts :: [Post] -> [Post]
+sortPosts = sortBy $ \p1 p2 -> mconcat
+  [ compare (p1 ^. #calendar ^. #title) (p2 ^. #calendar ^. #title)
+  , compare (p1 ^. #date) (p2 ^. #date)
+  ]

@@ -1,6 +1,6 @@
 [
     {
-        "category": "",
+        "category": "Eta",
         "url": "https://qiita.com/aiya000/items/7dc0cb8694de0675088e",
         "date": "12/25",
         "auther": "aiya000",
@@ -11,7 +11,7 @@
         "title": "Haskell (Eta) でJavaFXのEDSLを作る雰囲気を醸し出す - Qiita"
     },
     {
-        "category": "",
+        "category": "書籍紹介",
         "url": "https://mt-caret.github.io/blog/posts/2017-12-01-book01.html",
         "date": "12/01",
         "auther": "mt_caret",
@@ -22,7 +22,7 @@
         "title": "mt_caret.log - 本1 \"Haskell Programming from first principles\""
     },
     {
-        "category": "",
+        "category": "アルゴリズムとデータ構造",
         "url": "http://zodi-g12.hatenablog.com/entry/2017/12/06/133951",
         "date": "12/06",
         "auther": "zodi_G12",
@@ -33,7 +33,7 @@
         "title": "コラッツの問題をHaskellで書いてみた - Zodiacの黙示録"
     },
     {
-        "category": "",
+        "category": "解説",
         "url": "https://tech.recruit-mp.co.jp/dev-tools/post-13981/",
         "date": "12/13",
         "auther": "yukiasai",
@@ -44,7 +44,7 @@
         "title": "CircleCI2.0でHaskellのテストを実行する – PSYENCE:MEDIA"
     },
     {
-        "category": "",
+        "category": "解説",
         "url": "https://qiita.com/yukiasai/items/248294a871d40c0dcef6",
         "date": "12/07",
         "auther": "yukiasai",
@@ -55,7 +55,7 @@
         "title": "Dokku環境を構築してHaskellのアプリケーションをデプロイする - Qiita"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "https://matsubara0507.github.io/posts/2017-12-02-re-adventar-slack-bot-part1.html",
         "date": "12/02",
         "auther": "ひげ",
@@ -99,7 +99,7 @@
         "title": "タイプセーフプリキュア！を支える技術 その2 - Haskell-jp"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "https://www.ncaq.net/2017/12/19/00/00/00/",
         "date": "12/19",
         "auther": "エヌユル",

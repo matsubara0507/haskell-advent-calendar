@@ -1,6 +1,6 @@
 [
     {
-        "category": "",
+        "category": "翻訳記事",
         "url": "https://haskell.e-bigmoon.com/posts/2017-12-27-haskell-performance-debugging",
         "date": "12/01",
         "auther": "waddlaw",
@@ -11,7 +11,7 @@
         "title": "Haskell のパフォーマンスをデバッグする"
     },
     {
-        "category": "",
+        "category": "周辺ツールについて",
         "url": "https://haskell.e-bigmoon.com/posts/2017-12-27-haddock-grid-table.html",
         "date": "12/02",
         "auther": "waddlaw",
@@ -22,7 +22,7 @@
         "title": "haddock に Grid Table 記法が追加されました"
     },
     {
-        "category": "",
+        "category": "型",
         "url": "https://qiita.com/HirotoShioi/items/5474119ba3682448c109",
         "date": "12/04",
         "auther": "HirotoShioi",
@@ -33,7 +33,7 @@
         "title": "Haskellにおける型クラス制約の役割 - Qiita"
     },
     {
-        "category": "",
+        "category": "書籍紹介",
         "url": "https://qiita.com/waddlaw/items/dd926462d398c4cbd019",
         "date": "12/01",
         "auther": "waddlaw",
@@ -44,7 +44,7 @@
         "title": "これから Haskell を学ぶ人のための書籍紹介 - Qiita"
     },
     {
-        "category": "",
+        "category": "翻訳記事",
         "url": "https://qiita.com/Pythonissam/items/ace180b1b78876f1c190",
         "date": "12/02",
         "auther": "rounddelta",
@@ -55,7 +55,7 @@
         "title": "Haskell で暗号学的ハッシュを扱う (和訳) - Qiita"
     },
     {
-        "category": "",
+        "category": "翻訳記事",
         "url": "https://qiita.com/rounddelta/items/d767f36d544427a9c60d",
         "date": "12/03",
         "auther": "rounddelta",
@@ -66,7 +66,7 @@
         "title": "Haskell のアプリケーション向けに軽量の Dockerイメージ を作る (和訳) - Qiita"
     },
     {
-        "category": "",
+        "category": "翻訳記事",
         "url": "https://qiita.com/rounddelta/items/8b7d2a200a932e761fa3",
         "date": "12/04",
         "auther": "rounddelta",
@@ -77,7 +77,7 @@
         "title": "Haskell 初心者へのアドバイス (和訳) - Qiita"
     },
     {
-        "category": "",
+        "category": "翻訳記事",
         "url": "https://qiita.com/rounddelta/items/31b835b493abf5be3549",
         "date": "12/05",
         "auther": "rounddelta",
@@ -88,7 +88,7 @@
         "title": "将来も使えるテストスイート (和訳) - Qiita"
     },
     {
-        "category": "",
+        "category": "翻訳記事",
         "url": "https://qiita.com/rounddelta/items/27c12237d9ef1c5569ba",
         "date": "12/06",
         "auther": "rounddelta",
@@ -99,7 +99,7 @@
         "title": "VS Code で Ghcid を使う (和訳) - Qiita"
     },
     {
-        "category": "",
+        "category": "翻訳記事",
         "url": "https://qiita.com/rounddelta/items/4584f5486c1061c93f0b",
         "date": "12/07",
         "auther": "rounddelta",
@@ -110,7 +110,7 @@
         "title": "HLint のルールを理解する (和訳) - Qiita"
     },
     {
-        "category": "",
+        "category": "周辺ツールについて",
         "url": "https://haskell.e-bigmoon.com/posts/2017-12-20-stack-ls-command.html",
         "date": "12/08",
         "auther": "waddlaw",
@@ -121,7 +121,7 @@
         "title": "stack ls コマンドが追加されます"
     },
     {
-        "category": "",
+        "category": "周辺ツールについて",
         "url": "https://haskell.e-bigmoon.com/posts/2017-12-24-stack163.html",
         "date": "12/09",
         "auther": "waddlaw",
@@ -132,7 +132,7 @@
         "title": "stack v1.6.3 がリリースされました。"
     },
     {
-        "category": "",
+        "category": "ライブラリ紹介",
         "url": "https://qiita.com/cyclone_t/items/52ad44cfbb4603e123f3",
         "date": "12/11",
         "auther": "cyclone_t",
@@ -143,7 +143,7 @@
         "title": "Haskell・Servant+Persistent/Esqueletoで作る実用WebAPI (1) Servantの基本 - Qiita"
     },
     {
-        "category": "",
+        "category": "書籍紹介",
         "url": "https://qiita.com/Aruneko/items/e72f7c6ee49159751cba",
         "date": "12/13",
         "auther": "Aruneko",
@@ -154,7 +154,7 @@
         "title": "2017年に「すごいHaskellたのしく学ぼう」を読む - Qiita"
     },
     {
-        "category": "",
+        "category": "ノウハウ",
         "url": "https://haskell.jp/blog/posts/2017/windows-gotchas.html",
         "date": "12/14",
         "auther": "igrep",
@@ -165,7 +165,7 @@
         "title": "WindowsでHaskellを扱う時によく遭遇するエラーと対処法 - Haskell-jp"
     },
     {
-        "category": "",
+        "category": "周辺ツールについて",
         "url": "https://qiita.com/ogata-k/items/23d70250ec42359b6bb5",
         "date": "12/15",
         "auther": "ogata-k",
@@ -176,7 +176,7 @@
         "title": "Haskellや周辺ツールについてのリンク集 - Qiita"
     },
     {
-        "category": "",
+        "category": "周辺ツールについて",
         "url": "https://qiita.com/ogata-k/items/2b21326b2b7351bfc28c",
         "date": "12/16",
         "auther": "ogata-k",
@@ -187,7 +187,7 @@
         "title": "Haskellのstackによるプロジェクトについて - Qiita"
     },
     {
-        "category": "",
+        "category": "翻訳記事",
         "url": "https://qiita.com/Pythonissam/items/41f8121795f5d8954802",
         "date": "12/17",
         "auther": "rounddelta",
@@ -198,7 +198,7 @@
         "title": "SPJ の憂鬱 (和訳) - Qiita"
     },
     {
-        "category": "",
+        "category": "翻訳記事",
         "url": "https://qiita.com/reotasosan/items/d9fdfab10e24eabfefda",
         "date": "12/18",
         "auther": "reotasosan",
@@ -209,7 +209,7 @@
         "title": "SPJとHaskellのエコシステム（和訳） - Qiita"
     },
     {
-        "category": "",
+        "category": "型",
         "url": "https://qiita.com/mod_poppo/items/50ad2c0ee66171cc1ee9",
         "date": "12/19",
         "auther": "mod_poppo",
@@ -220,7 +220,7 @@
         "title": "型を実行時に作る：怖くないリフレクション - Qiita"
     },
     {
-        "category": "",
+        "category": "Base",
         "url": "https://keiorogiken.wordpress.com/2017/12/24/list%E3%81%A7%E9%81%8A%E3%81%B6/",
         "date": "12/20",
         "auther": "mt_caret",
@@ -231,7 +231,7 @@
         "title": "Listで遊ぶ | 慶應義塾大学ロボット技術研究会"
     },
     {
-        "category": "",
+        "category": "ポエム",
         "url": "https://qiita.com/Mizunashi_Mana/items/e82214dfae2765c6839a",
         "date": "12/21",
         "auther": "Mizunashi_Mana",
@@ -242,7 +242,7 @@
         "title": "Haskell副作用ポエム - Qiita"
     },
     {
-        "category": "",
+        "category": "数学・科学",
         "url": "https://qiita.com/NaOHaq/items/ba490cc1e1ab890cb399",
         "date": "12/22",
         "auther": "NaOHaq",
@@ -253,7 +253,7 @@
         "title": "Haskell上で有限体を使って遊ぶ - Qiita"
     },
     {
-        "category": "",
+        "category": "書籍紹介",
         "url": "https://qiita.com/YoshikuniJujo/items/0708f108bf53a216a61a",
         "date": "12/24",
         "auther": "YoshikuniJujo",
@@ -264,7 +264,7 @@
         "title": "拙書「Haskell 教養としての関数型プログラミング」の紹介 - Qiita"
     },
     {
-        "category": "",
+        "category": "入門してみた",
         "url": "https://qiita.com/3nan/items/b89b7383ddb2bac5dda1",
         "date": "12/23",
         "auther": "3nan",
@@ -286,7 +286,7 @@
         "title": "Haskell っぽく JavaScript で関数合成したい - Qiita"
     },
     {
-        "category": "",
+        "category": "数学・科学",
         "url": "https://qiita.com/kyamaz/items/e49b07e05e871a22246c",
         "date": "12/17",
         "auther": "kyamaz",
@@ -297,7 +297,7 @@
         "title": "量子プログラミングはHaskellで - Qiita"
     },
     {
-        "category": "",
+        "category": "Base",
         "url": "https://www.ncaq.net/2017/12/01/00/00/01/",
         "date": "12/01",
         "auther": "ncaq",
@@ -308,7 +308,7 @@
         "title": "HaskellのStateの必要性が,プログラミング言語の処理系を書いた時にわかったので,Stateの良さを語ります - ncaq"
     },
     {
-        "category": "",
+        "category": "ノウハウ",
         "url": "https://www.ncaq.net/2017/12/02/00/00/00/",
         "date": "12/02",
         "auther": "ncaq",
@@ -319,7 +319,7 @@
         "title": "私のHaskellコーディングスタイルガイド,改行出来るポイントを紹介 - ncaq"
     },
     {
-        "category": "",
+        "category": "ノウハウ",
         "url": "https://www.ncaq.net/2017/12/03/00/00/00/",
         "date": "12/03",
         "auther": "ncaq",
@@ -330,7 +330,7 @@
         "title": "ゲーム販売webアプリケーションSYAKERAKEを支える技術,HaskellとYesodで作られています - ncaq"
     },
     {
-        "category": "",
+        "category": "ノウハウ",
         "url": "https://www.ncaq.net/2017/12/04/00/00/00/",
         "date": "12/04",
         "auther": "ncaq",
@@ -341,7 +341,7 @@
         "title": "Stackage Serverのちょっとした便利な使い方,Hoogleをブラウザのカスタム検索エンジンに追加しましょう,よく使うパッケージをブックマークする時はPackageRのURLにしましょう - ncaq"
     },
     {
-        "category": "",
+        "category": "入門してみた",
         "url": "https://gist.github.com/sys9kdr/2484ed09f5cb7ea86beae8f5222d9a3c",
         "date": "12/05",
         "auther": "sys9kdr",
@@ -352,7 +352,7 @@
         "title": "Haskell入門しようとして環境構築で失敗。 · GitHub"
     },
     {
-        "category": "",
+        "category": "ポエム",
         "url": "http://kakkun61.hatenablog.com/entry/2017/12/25/%E3%81%AA%E3%81%9C_Haskell_%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%81%AE%E3%81%8B",
         "date": "12/06",
         "auther": "kakkun61",
@@ -363,7 +363,7 @@
         "title": "なぜ Haskell が好きなのか - 趣味はデバッグ……"
     },
     {
-        "category": "",
+        "category": "ライブラリ紹介",
         "url": "https://qiita.com/jabaraster/items/e8ebbe6d25b535947aba",
         "date": "12/07",
         "auther": "jabaraster",
@@ -374,7 +374,7 @@
         "title": "servant+persistentを利用する - Qiita"
     },
     {
-        "category": "",
+        "category": "Base",
         "url": "https://qiita.com/grainrigi/items/f45b586b4013ffc3814e",
         "date": "12/08",
         "auther": "grainrigi",
@@ -385,7 +385,7 @@
         "title": "Haskell - $の仕組みを覗いてみよう - Qiita"
     },
     {
-        "category": "",
+        "category": "アルゴリズムとデータ構造",
         "url": "https://qiita.com/ryohji/items/d8bdba1648978c308cdd",
         "date": "12/09",
         "auther": "ryohji",
@@ -396,7 +396,7 @@
         "title": "探索問題を Haskell で解く - Qiita"
     },
     {
-        "category": "",
+        "category": "Base",
         "url": "https://blog.b123400.net/functor/",
         "date": "12/10",
         "auther": "b123400",
@@ -407,7 +407,7 @@
         "title": "Mapping things"
     },
     {
-        "category": "",
+        "category": "処理系",
         "url": "http://ilyaletre.hatenablog.com/entry/2017/12/10/195016",
         "date": "12/11",
         "auther": "ilyaletre",
@@ -418,7 +418,7 @@
         "title": "GHCの中間言語Coreへの脱糖を覗き見る - Hash λ Bye"
     },
     {
-        "category": "",
+        "category": "言語機能",
         "url": "https://matsubara0507.github.io/posts/2017-12-12-backpack-memo.html",
         "date": "12/12",
         "auther": "matsubara0507",
@@ -429,7 +429,7 @@
         "title": "Haskell Backpack 覚え書き"
     },
     {
-        "category": "",
+        "category": "ライブラリ紹介",
         "url": "https://qiita.com/makoraru/items/596729de09d6aeb81e5a",
         "date": "12/13",
         "auther": "makoraru",
@@ -440,7 +440,7 @@
         "title": "YampaでFunctional Reactiveな認知行動療法ボット - Qiita"
     },
     {
-        "category": "",
+        "category": "数学・科学",
         "url": "https://qiita.com/tezca686/items/855236ccdda584ee8ebb",
         "date": "12/14",
         "auther": "tezca686",
@@ -451,7 +451,7 @@
         "title": "[Haskell] とびだせ！Hask圏 - Qiita"
     },
     {
-        "category": "",
+        "category": "アルゴリズムとデータ構造",
         "url": "https://qiita.com/v97ug/items/d6dd50a2b6b84a9e4d41",
         "date": "12/15",
         "auther": "v97ug",
@@ -459,10 +459,10 @@
             "url": "http://qiita.com/advent-calendar/2017/haskell3",
             "title": "Haskell  (その3) Advent Calendar 2017 - Qiita"
         },
-        "title": "巡回セールスマン問題を遺伝的アルゴリズムを使ってHaskellで解く！ - Qiita"
+        "title": "巡回セールスマン問題を遺伝的アルゴリズムとデータ構造を使ってHaskellで解く！ - Qiita"
     },
     {
-        "category": "",
+        "category": "Base",
         "url": "https://qiita.com/elipmoc101/items/4590210c9946ee2fd4c5",
         "date": "12/16",
         "auther": "elipmoc101",
@@ -473,7 +473,7 @@
         "title": "Maybe自作から学ぶHaskell！ - Qiita"
     },
     {
-        "category": "",
+        "category": "数学・科学",
         "url": "https://qiita.com/makoraru/items/768089b2aab1dde47593",
         "date": "12/17",
         "auther": "makoraru",
@@ -484,7 +484,7 @@
         "title": "区間代数と無限小と無限大 - Qiita"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "http://abc10946.hatenablog.com/entry/2017/12/18/014203",
         "date": "12/18",
         "auther": "ABC10946",
@@ -495,7 +495,7 @@
         "title": "Haskellに入門して1年位経ったのでライフゲームを作ってみた話 - abc10946の日記"
     },
     {
-        "category": "",
+        "category": "入門してみた",
         "url": "https://qiita.com/lagenorhynque/items/f8b14ff70a26cfd27976",
         "date": "12/19",
         "auther": "lagenorhynque",
@@ -506,7 +506,7 @@
         "title": "ClojurianがHaskellでWeb API開発に入門してみた - Qiita"
     },
     {
-        "category": "",
+        "category": "言語機能",
         "url": "https://qiita.com/aiya000/items/b802531c58c161cd245f",
         "date": "12/21",
         "auther": "aiya000",
@@ -517,7 +517,7 @@
         "title": "にこ、希と一緒に学ぶHaskell（番外）「あまり知られていないGHC拡張の紹介」 - Qiita"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "http://d.hatena.ne.jp/wvogel00/20171222/1513924995",
         "date": "12/22",
         "auther": "hxf_vogel",
@@ -528,7 +528,7 @@
         "title": "仕事でHaskellを使いたいなら外堀から"
     },
     {
-        "category": "",
+        "category": "入門してみた",
         "url": "https://qiita.com/ryosukue/items/cf14d817a7067dfd2094",
         "date": "12/23",
         "auther": "ryosukue",
@@ -539,7 +539,7 @@
         "title": "Ubuntu、Haskellでwebアプリ手始め - Qiita"
     },
     {
-        "category": "",
+        "category": "ノウハウ",
         "url": "http://d.hatena.ne.jp/kazu-yamamoto/20171212/1513050147",
         "date": "12/01",
         "auther": "kazu_yamamoto",
@@ -550,7 +550,7 @@
         "title": "goな関数"
     },
     {
-        "category": "",
+        "category": "言語機能",
         "url": "https://qiita.com/ruicc/items/e2879c44eba77b1e7170",
         "date": "12/02",
         "auther": "ruicc",
@@ -561,7 +561,7 @@
         "title": "Levity polymorphismについて軽く - Qiita"
     },
     {
-        "category": "",
+        "category": "解説",
         "url": "http://syocy.hatenablog.com/entry/a-tour-of-go-in-haskell",
         "date": "12/03",
         "auther": "syocy",
@@ -572,7 +572,7 @@
         "title": "A Tour of Go in Haskellを作ったのと、GoとHaskellの比較 - syocy’s diary"
     },
     {
-        "category": "",
+        "category": "数学・科学",
         "url": "https://qiita.com/as_capabl/items/2031fe28e577e77dc269",
         "date": "12/04",
         "auther": "as_capabl",
@@ -583,7 +583,7 @@
         "title": "しりとりの圏の回答、または定理証明Haskellを少しだけ - Qiita"
     },
     {
-        "category": "",
+        "category": "数学・科学",
         "url": "https://qiita.com/hiratara/items/6265b5d4791144bee33b",
         "date": "12/05",
         "auther": "hiratara",
@@ -594,7 +594,7 @@
         "title": "しりとりの圏の実装(未完) - Qiita"
     },
     {
-        "category": "",
+        "category": "ノウハウ",
         "url": "http://fumieval.hatenablog.com/entry/2017/12/19/203500",
         "date": "12/06",
         "auther": "fumieval",
@@ -605,7 +605,7 @@
         "title": "HaskellのABC(Haskell Advent Calendar 6th) - モナドとわたしとコモナド"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "http://blog.nakaji.me/slack-api-bloodhound-servant/",
         "date": "12/07",
         "auther": "nakaji-dayo",
@@ -616,7 +616,7 @@
         "title": "slack-api + bloodhound + servant でbot+αを作る"
     },
     {
-        "category": "",
+        "category": "Docker",
         "url": "https://qiita.com/t10471/items/4afa598e1be5d6c7cc1f",
         "date": "12/09",
         "auther": "t10471",
@@ -627,7 +627,7 @@
         "title": "HaskellでもGoみたいにシングルバイナリでアプリケーションをデプロイしたい - Qiita"
     },
     {
-        "category": "",
+        "category": "言語機能",
         "url": "https://qiita.com/ryoppy/items/7156d587da2e6ae7e605",
         "date": "12/11",
         "auther": "ryoppy",
@@ -638,7 +638,7 @@
         "title": "Kindについて - Qiita"
     },
     {
-        "category": "",
+        "category": "周辺ツールについて",
         "url": "https://qiita.com/usamik26/items/672ed3c4451402bfc275",
         "date": "12/12",
         "auther": "usamik26",
@@ -649,7 +649,7 @@
         "title": "Haskell Stack とは何をするツールなのか - Qiita"
     },
     {
-        "category": "",
+        "category": "入門してみた",
         "url": "https://qiita.com/hitsujisanmeme/items/e14972cfd349c1149d58",
         "date": "12/14",
         "auther": "hitsujisanmeme",
@@ -660,7 +660,7 @@
         "title": "美術の人が考える Haskell - Qiita"
     },
     {
-        "category": "",
+        "category": "解説",
         "url": "https://qiita.com/cyclone_t/items/8443ed5d4a77f87b1f1b",
         "date": "12/15",
         "auther": "cyclone_t",
@@ -671,7 +671,7 @@
         "title": "ServantのハンドラにReaderTを適用する - Qiita"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "http://secret-garden.hatenablog.com/entry/2017/12/16/000000",
         "date": "12/16",
         "auther": "pink_bangbi",
@@ -682,7 +682,7 @@
         "title": "【Haskell (その2) Advent Calendar 2017】Vim から Hoogle の検索が出来るプラグインをつくった【16日目】 - Secret Garden(Instrumental)"
     },
     {
-        "category": "",
+        "category": "数学・科学",
         "url": "https://qiita.com/kyamaz/items/67ec5c7d39e62c1de91d",
         "date": "12/17",
         "auther": "kyamaz",
@@ -693,7 +693,7 @@
         "title": "量子コンピューターにはモナドがよく似合う - Qiita"
     },
     {
-        "category": "",
+        "category": "言語機能",
         "url": "http://khibino.hatenadiary.jp/entry/2017/12/18/081814",
         "date": "12/18",
         "auther": "khibino",
@@ -704,7 +704,7 @@
         "title": "OverloadedLabels と Haskell Relational Record - khibino blog"
     },
     {
-        "category": "",
+        "category": "型",
         "url": "https://qiita.com/junjihashimoto@github/items/31f245f5e0138e5fac7e",
         "date": "12/19",
         "auther": "junjihashimoto@github",
@@ -715,7 +715,7 @@
         "title": "依存型の紹介と応用としてのClashの紹介 - Qiita"
     },
     {
-        "category": "",
+        "category": "アルゴリズムとデータ構造",
         "url": "https://qiita.com/rst76/items/a7dd81b522a09d1b9986",
         "date": "12/21",
         "auther": "rst76",
@@ -726,7 +726,7 @@
         "title": "キューの効率的な実装 または私は如何にしてHaskellを止めてF#を愛するようになったか - Qiita"
     },
     {
-        "category": "",
+        "category": "アルゴリズムとデータ構造",
         "url": "http://autotaker.hatenablog.com/entry/2017/12/21/125153",
         "date": "12/22",
         "auther": "autotaker1984",
@@ -737,7 +737,7 @@
         "title": "永続リアルタイムキューのHaskell実装と計算量解析 - autotaker's blog"
     },
     {
-        "category": "",
+        "category": "ライブラリ紹介",
         "url": "https://nnwww.github.io/blog/post/haskell_ml/",
         "date": "12/23",
         "auther": "\\_Nnwww",
@@ -748,7 +748,7 @@
         "title": "Haskellで機械学習を実装しようと思った過去の自分へ"
     },
     {
-        "category": "",
+        "category": "型",
         "url": "https://qiita.com/aiya000/items/81e8424c8a3ee23586a6",
         "date": "12/24",
         "auther": "aiya000",
@@ -759,7 +759,7 @@
         "title": "ことり、穂乃果と一緒に学ぶHaskell（入門）その6「高階データ型」 - Qiita"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "https://qiita.com/rounddelta/items/807866bdaa81c3057ac0",
         "date": "12/25",
         "auther": "rounddelta",
@@ -770,7 +770,7 @@
         "title": "お天気Bot で理解する Haskell の便利パッケージ - Qiita"
     },
     {
-        "category": "",
+        "category": "周辺ツールについて",
         "url": "https://myuon.github.io/posts/haskell-project-setup/",
         "date": "12/15",
         "auther": "myuon_myon",
@@ -781,7 +781,7 @@
         "title": "Haskellプロジェクトを始めるにあたって - The curse of λ"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "https://matsubara0507.github.io/posts/2017-12-13-elm-and-haskell-for-elmer.html",
         "date": "12/13",
         "auther": "matsubara0507",
@@ -792,7 +792,7 @@
         "title": "Elm と Haskell で作る ToDo アプリ"
     },
     {
-        "category": "",
+        "category": "数学・科学",
         "url": "https://qiita.com/cutsea110/items/69889a99d30b627bc04a",
         "date": "12/01",
         "auther": "cutsea110",
@@ -803,7 +803,7 @@
         "title": "somehow-morphisms on fixed point written in Haskell - Qiita"
     },
     {
-        "category": "",
+        "category": "アルゴリズムとデータ構造",
         "url": "https://qiita.com/Aruneko/items/dee20161358e7c39e27a",
         "date": "12/02",
         "auther": "Aruneko",
@@ -814,7 +814,7 @@
         "title": "Zipperに挑む - Qiita"
     },
     {
-        "category": "",
+        "category": "処理系",
         "url": "http://fujiy.hatenablog.com/entry/type-inference-1",
         "date": "12/03",
         "auther": "fujiy",
@@ -825,7 +825,7 @@
         "title": "Haskellの型システムを書く(1) - 純粋技術メモ"
     },
     {
-        "category": "",
+        "category": "ポエム",
         "url": "https://qiita.com/ababup1192/items/b15cdace30b7fef3338c",
         "date": "12/04",
         "auther": "ababup1192",
@@ -836,7 +836,7 @@
         "title": "Haskellを勉強して感動したこと・難しいと思ってること - Qiita"
     },
     {
-        "category": "",
+        "category": "Docker",
         "url": "https://qiita.com/algas/items/fde155abbc9d8ae3f8c9",
         "date": "12/05",
         "auther": "algas",
@@ -847,7 +847,7 @@
         "title": "Haskell on Docker で Portable CLI を作ろう - Qiita"
     },
     {
-        "category": "",
+        "category": "処理系",
         "url": "https://qiita.com/takoeight0821/items/9a1c3eb5b0f292026596",
         "date": "12/06",
         "auther": "takoeight0821",
@@ -858,7 +858,7 @@
         "title": "GHCでの中置演算子のパース - Qiita"
     },
     {
-        "category": "",
+        "category": "アルゴリズムとデータ構造",
         "url": "https://qiita.com/nobsun/items/27fe53516cbb90ba02e2",
         "date": "12/07",
         "auther": "nobsun",
@@ -869,7 +869,7 @@
         "title": "Tree: 親子関係の付け替え - Qiita"
     },
     {
-        "category": "",
+        "category": "Base",
         "url": "https://qiita.com/Lugendre/items/6b4a8c8a9c85fcdcb292",
         "date": "12/08",
         "auther": "Lugendre",
@@ -880,7 +880,7 @@
         "title": "Arrowを理解する - Qiita"
     },
     {
-        "category": "",
+        "category": "ライブラリ紹介",
         "url": "https://matsubara0507.github.io/posts/2017-12-09-extensible-effects-step-by-step.html",
         "date": "12/09",
         "auther": "matsubara0507",
@@ -891,7 +891,7 @@
         "title": "Extensible Effects ステップ・バイ・ステップ"
     },
     {
-        "category": "",
+        "category": "解説",
         "url": "https://qiita.com/wgag/items/11a6e667011d530832e8",
         "date": "12/10",
         "auther": "wgag",
@@ -902,7 +902,7 @@
         "title": "スーパーモナドについて - Qiita"
     },
     {
-        "category": "",
+        "category": "ライブラリ紹介",
         "url": "https://qiita.com/Mizunashi_Mana/items/115855bf2af9b9970198",
         "date": "12/11",
         "auther": "Mizunashi_Mana",
@@ -913,7 +913,7 @@
         "title": "Haskellのパーサライブラリまとめ - Qiita"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "https://qiita.com/arowM/items/e59442120ad3c1071c57",
         "date": "12/12",
         "auther": "arowM",
@@ -924,7 +924,7 @@
         "title": "Haskell ochintin-daicho で年末調整プログラミング - Qiita"
     },
     {
-        "category": "",
+        "category": "ライブラリ紹介",
         "url": "https://www.zaneli.com/blog/20171213",
         "date": "12/13",
         "auther": "zaneli@github",
@@ -935,7 +935,7 @@
         "title": "Haskell入門者LT会で自作ライブラリnetwork-voicetextの話をしてきた | ザネリは列車を見送った"
     },
     {
-        "category": "",
+        "category": "周辺ツールについて",
         "url": "https://haskell.e-bigmoon.com/posts/2017-12-23-stack161.html",
         "date": "12/14",
         "auther": "waddlaw",
@@ -946,7 +946,7 @@
         "title": "カスタムスナップショットの紹介"
     },
     {
-        "category": "",
+        "category": "処理系",
         "url": "https://uhideyuki.sakura.ne.jp/studs/index.cgi/ja/HindleyMilnerInHaskell",
         "date": "12/15",
         "auther": "unnohideyuki",
@@ -957,7 +957,7 @@
         "title": "型システムを学ぼう！"
     },
     {
-        "category": "",
+        "category": "ライブラリ紹介",
         "url": "https://qiita.com/satosystems/items/32bf104a041c8cc13809",
         "date": "12/16",
         "auther": "satosystems",
@@ -968,7 +968,7 @@
         "title": "Haskell と SQLite - Qiita"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "https://qiita.com/lotz/items/1aa6cf18aa193f40c647",
         "date": "12/18",
         "auther": "lotz",
@@ -979,7 +979,7 @@
         "title": "作って学ぶBitcoin！ゼロから作るSPVウォレット - Qiita"
     },
     {
-        "category": "",
+        "category": "言語機能",
         "url": "https://qiita.com/thimura/items/0d289c231f9aceac61dc",
         "date": "12/19",
         "auther": "thimura",
@@ -990,7 +990,7 @@
         "title": "GHC 8.2 以前で FFI を使う際に注意すること - Qiita"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "http://tune.hateblo.jp/entry/2017/12/27/031803",
         "date": "12/20",
         "auther": "tokiwoousaka@github",
@@ -1001,7 +1001,7 @@
         "title": "優秀な秘書を雇いました!!! - Creatable a => a -> IO b"
     },
     {
-        "category": "",
+        "category": "ライブラリ紹介",
         "url": "https://qiita.com/masahiro_sakai/items/6a989d5b898a08f17821",
         "date": "12/21",
         "auther": "masahiro_sakai",
@@ -1012,7 +1012,7 @@
         "title": "部分構造の共有を観測するdata-reify - Qiita"
     },
     {
-        "category": "",
+        "category": "入門してみた",
         "url": "https://qiita.com/brackss1/items/9f9466f160391dc53bba",
         "date": "12/22",
         "auther": "brackss1",
@@ -1023,7 +1023,7 @@
         "title": "Haskell入門者がライブラリを触っちゃう!? - Qiita"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "https://qiita.com/satosystems/items/c1c0feef87345a9df69d",
         "date": "12/23",
         "auther": "satosystems",
@@ -1034,7 +1034,7 @@
         "title": "Haskell における遅延ファイル読み込みとリソースリーク - Qiita"
     },
     {
-        "category": "",
+        "category": "作ってみた",
         "url": "https://haskell.jp/blog/posts/2017/typesafe-precure2.html",
         "date": "12/24",
         "auther": "igrep",
@@ -1045,7 +1045,7 @@
         "title": "タイプセーフプリキュア！を支える技術 その2 - Haskell-jp"
     },
     {
-        "category": "",
+        "category": "Eta",
         "url": "https://qiita.com/aiya000/items/881d5f7e04b1178e7764",
         "date": "12/25",
         "auther": "aiya000",
