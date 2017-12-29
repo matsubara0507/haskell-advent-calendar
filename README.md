@@ -1,5 +1,5 @@
-# Haskell Advent Calendar 2017
-Posts of Haskell Advent Calendar 2017 in Japan
+# Haskell Advent Calendar
+Posts of Haskell Advent Calendar in Japan
 
 ## USAGE
 
@@ -36,5 +36,11 @@ and exec on ghci
 run selenium with chrome webdriver and:
 
 ```
-$  stack exec -- advent-calendar 2017 "./hoge.json"
+$ stack exec -- advent-calendar fetch 2017 "./out/hoge.json"
+```
+
+### To Markdown
+
+```
+$ stack exec -- advent-calendar markdown "./out/qiita.json" "./out/adventar.json" -o "./out/posts.md"
 ```
