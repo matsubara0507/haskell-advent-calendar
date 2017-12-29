@@ -28,7 +28,7 @@ library:
   - http-client
   - scalpel-core
   - shelly
-  - string-transform
+  - text-conversions
   - unordered-containers
   - webdriver
   - wreq

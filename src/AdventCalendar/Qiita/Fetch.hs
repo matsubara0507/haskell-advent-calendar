@@ -6,14 +6,16 @@ import           AdventCalendar.Post   (URL)
 import           AdventCalendar.Utils  (Html)
 import           Control.Exception     (catch)
 import           Control.Lens          ((^.))
-import           Data.String.Transform
+import           Data.Maybe            (fromMaybe)
+import           Data.Text             (unpack)
+import           Data.Text.Conversions
 import           Network.HTTP.Client   (HttpException)
 import           Network.Wreq          (get, responseBody)
 
 fetchHtml :: URL -> IO Html
 fetchHtml url = do
-  response <- get $ toString url
-  return $ toTextStrict (response ^. responseBody)
+  response <- get $ unpack url
+  return $ fromMaybe "" (decodeConvertText . UTF8 $ response ^. responseBody)
 
 fetchHtml' :: URL -> IO Html
 fetchHtml' url = fetchHtml url `catch` handler
