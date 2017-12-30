@@ -40,8 +40,7 @@ isHaskellPost post = any ("Haskell" `isInfixOf`)
 
 toMarkdown :: Post -> [Text]
 toMarkdown post = mconcat <$>
-  [ [ "#### [", post ^. #title, "](", post ^. #url, ")" ]
-  , [ "" ]
+  [ [ "**[", post ^. #title, "](", post ^. #url, ")**  " ]
   , [ " by ", post ^. #auther
     , " on [", post ^. #calendar ^. #title, "](", post ^. #calendar ^. #url, ") "
     , post ^. #date
