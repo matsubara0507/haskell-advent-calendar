@@ -506,6 +506,17 @@
         "title": "ClojurianがHaskellでWeb API開発に入門してみた - Qiita"
     },
     {
+        "category": "アルゴリズムとデータ構造",
+        "url": "https://qiita.com/as_capabl/items/39e55e7a035dea4dc93a",
+        "date": "12/20",
+        "auther": "as_capabl",
+        "calendar": {
+            "url": "http://qiita.com/advent-calendar/2017/haskell3",
+            "title": "Haskell  (その3) Advent Calendar 2017 - Qiita"
+        },
+        "title": "いつからHaskellの5行クイックソートが遅いと錯覚していた？ - Qiita"
+    },
+    {
         "category": "言語機能",
         "url": "https://qiita.com/aiya000/items/b802531c58c161cd245f",
         "date": "12/21",
@@ -713,6 +724,17 @@
             "title": "Haskell (その2) Advent Calendar 2017 - Qiita"
         },
         "title": "依存型の紹介と応用としてのClashの紹介 - Qiita"
+    },
+    {
+        "category": "数学・科学",
+        "url": "https://qiita.com/makoraru/items/ab891a60d4dfe4bbf649",
+        "date": "12/20",
+        "auther": "makoraru",
+        "calendar": {
+            "url": "http://qiita.com/advent-calendar/2017/haskell2",
+            "title": "Haskell (その2) Advent Calendar 2017 - Qiita"
+        },
+        "title": "Haskellと層 - Qiita"
     },
     {
         "category": "アルゴリズムとデータ構造",
